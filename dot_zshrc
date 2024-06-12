@@ -106,6 +106,7 @@ alias dbt_start="source /Users/darren/develop/etl-data-models/.venv/bin/activate
 
 #eval "$(pyenv init -)"
 eval "$(direnv hook zsh)"
+eval "$(starship init zsh)"
 
 alias aws-login="export AWS_PROFILE=sg-data-prod && aws sso login"
 alias bi-redshift-resume="aws redshift resume-cluster --cluster-identifier stashaway-data-bi-production"
