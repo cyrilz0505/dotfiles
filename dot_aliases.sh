@@ -1,0 +1,6 @@
+alias dbt_start="source /Users/darren/develop/etl-data-models/.venv/bin/activate"
+alias aws-login="export AWS_PROFILE=sg-data-prod && aws sso login"
+alias bi-redshift-resume="aws redshift resume-cluster --cluster-identifier stashaway-data-bi-production"
+alias bi-redshift-pause="aws redshift pause-cluster --cluster-identifier stashaway-data-bi-production"
+alias bi-redshift-status="aws redshift describe-clusters --cluster-identifier stashaway-data-bi-production | grep ClusterStatus"
+alias ep="code ~/.local/share/chezmoi/.chezmoidata/packages.yaml"

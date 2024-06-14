@@ -2,6 +2,10 @@ packages:
   darwin:
     brews:
     - 'git'
+    - 'go-task'
+    - 'granted'
+    - 'direnv'
     casks:
     - 'arc'
     - 'warp'
+    - 'spotify'

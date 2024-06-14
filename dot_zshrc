@@ -102,14 +102,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias dbt_start="source /Users/darren/develop/etl-data-models/.venv/bin/activate"
 
 #eval "$(pyenv init -)"
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
+source ~/.aliases.sh
 
-alias aws-login="export AWS_PROFILE=sg-data-prod && aws sso login"
-alias bi-redshift-resume="aws redshift resume-cluster --cluster-identifier stashaway-data-bi-production"
-alias bi-redshift-pause="aws redshift pause-cluster --cluster-identifier stashaway-data-bi-production"
-alias bi-redshift-status="aws redshift describe-clusters --cluster-identifier stashaway-data-bi-production | grep ClusterStatus"
 . "/opt/homebrew/opt/asdf/libexec/asdf.sh"
