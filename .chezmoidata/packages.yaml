@@ -5,6 +5,7 @@ packages:
     - 'go-task'
     - 'granted'
     - 'direnv'
+    - 'mackup'
     casks:
     - 'arc'
     - 'warp'
