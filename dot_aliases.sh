@@ -4,3 +4,4 @@ alias bi-redshift-resume="aws redshift resume-cluster --cluster-identifier stash
 alias bi-redshift-pause="aws redshift pause-cluster --cluster-identifier stashaway-data-bi-production"
 alias bi-redshift-status="aws redshift describe-clusters --cluster-identifier stashaway-data-bi-production | grep ClusterStatus"
 alias ep="code ~/.local/share/chezmoi/.chezmoidata/packages.yaml"
+alias bi_repo="cd ~/develop/etl-data-models"
